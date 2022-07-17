@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.button{
+    margin-right: 10px;
+    height: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 12px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px;
+    cursor: pointer;
+    transition: color 0.5s;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+.button:hover{
+    color: rgb(94, 3, 136);
+    transition: color 0.5s;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h3{
+    padding: 10px;
+    
+}
+
+.h2{
+    text-decoration: none;
+    padding-left: 10px;
+}
